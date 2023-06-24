@@ -30,19 +30,19 @@
 		"count": 1
 	},
 	{
-		"text": "Sit on someone's lap for 1 round",
+		"text": "$player: Sit on someone's lap for 1 round",
 		"color": "#FFF",
 		"background": "#333",
 		"count": 1
 	},
 	{
-		"text": "Sit on someone's lap for 4 rounds",
+		"text": "$player: Sit on someone's lap for 4 rounds",
 		"color": "#FFF",
 		"background": "#333",
 		"count": 1
 	},
 	{
-		"text": "Never have i ever...",
+		"text": "$player: Never have i ever...",
 		"color": "#000",
 		"background": "#2c5e14",
 		"count": 5
@@ -60,31 +60,31 @@
 		"count": 1
 	},
 	{
-		"text": "Let the person on your right scroll through your social media for 1 minute",
+		"text": "$player: Let the person on your right scroll through your social media for 1 minute",
 		"color": "#000",
 		"background": "#333",
 		"count": 1
 	},
 	{
-		"text": "Let the person on your right scroll through your social media for 1 minute",
+		"text": "$player: Let the person on your right scroll through your social media for 1 minute",
 		"color": "#000",
 		"background": "#333",
 		"count": 1
 	},
 	{
-		"text": "Act out a sex position",
+		"text": "$player: Act out a sex position with someone",
 		"color": "#000",
 		"background": "#fc32a8",
 		"count": 1
 	},
 	{
-		"text": "Kiss the person to your right or both take a shot",
+		"text": "$player: Kiss the person to your right or both take a shot",
 		"color": "#000",
 		"background": "#fc32a8",
 		"count": 1
 	},
 	{
-		"text": "Kiss the person to your left or both take a shot",
+		"text": "$player: Kiss the person to your left or both take a shot",
 		"color": "#000",
 		"background": "#fc32a8",
 		"count": 1
@@ -96,16 +96,16 @@
 		"count": 1
 	},
 	{
-		"text": "Biggest turn-on",
+		"text": "$player: Biggest turn-on",
 		"color": "#aaa",
 		"background": "#820511",
-		"count": 1
+		"count": 2
 	},
 	{
-		"text": "Biggest turn-off",
+		"text": "$player: Biggest turn-off",
 		"color": "#aaa",
 		"background": "#820511",
-		"count": 1
+		"count": 2
 	},
 	{
 		"text": "Cheaters, Take a shot for every time you cheated",
@@ -144,10 +144,10 @@
 		"count": 1
 	},
 	{
-		"text": "Let the other players decide your pornstar name",
+		"text": "$player: Let the other players decide your pornstar name",
 		"color": "#e84393",
 		"background": "#222",
-		"count": 1
+		"count": 2
 	},
 	{
 		"text": "Everyone who has been caught during sex takes 5 sips",
@@ -157,14 +157,14 @@
 	},
 	{
 		"text": "If you ever faked an orgasm, take 5 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#e84393",
+		"background": "#222",
 		"count": 1
 	},
 	{
 		"text": "If you like dirty talk during sex, take 5 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#000",
+		"background": "#fc32a8",
 		"count": 1
 	},
 	{
@@ -175,434 +175,428 @@
 	},
 	{
 		"text": "If you have ever sent a nude, drink 4 sips",
-		"color": "",
-		"background": "",
+		"color": "#6c5ce7",
+		"background": "#2d3436",
 		"count": 1
 	},
 	{
-		"text": "Bodyshot",
-		"color": "",
-		"background": "",
-		"count": 1
+		"text": "$player: Bodyshot",
+		"color": "#6c5ce7",
+		"background": "#2d3436",
+		"count": 4
 	},
 	{
-		"text": "Suck someone's ear for 15 seconds",
+		"text": "$player: Suck someone's ear for 15 seconds",
 		"color": "#000",
 		"background": "#fc32a8",
 		"count": 2
 	},
 	{
-		"text": "Blindfold yourself and let two players kiss you, Give away a shot if you gess correctly",
+		"text": "$player: Blindfold yourself and let two players kiss you, Give away a shot if you gess correctly",
 		"color": "#000",
 		"background": "#fc32a8",
 		"count": 2
 	},
 	{
-		"text": "If you're a girl lick your fingers in an erotic way, if you're a boy down your drink",
-		"color": "#",
-		"background": "#",
+		"text": "$player: If you're a girl lick your fingers in an erotic way, if you're a boy down your drink",
+		"color": "#000",
+		"background": "#fd79a8",
 		"count": 1
 	},
 	{
-		"text": "If you've ever been caught with a boner drink 5 times, if you're a girl down your drink",
-		"color": "#",
-		"background": "#",
+		"text": "$player: If you've ever been caught with a boner drink 5 times, if you're a girl down your drink",
+		"color": "#000",
+		"background": "#27ae60",
 		"count": 1
 	},
 	{
-		"text": "Take a picture with the hottest player",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Take a picture with the hottest player",
+		"color": "#fff",
+		"background": "#8e44ad",
 		"count": 1
 	},
 	{
 		"text": "If you have ever used a sex toy, give out 6 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#FFF",
+		"background": "#c0392b",
 		"count": 1
 	},
 	{
-		"text": "Kiss a person with an A in their name or take a shot",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Kiss a person with an A in their name or take a shot",
+		"color": "#000",
+		"background": "#d35400",
 		"count": 1
 	},
 	{
-		"text": "Kiss a person with a H in their name or take a shot",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Kiss a person with an E in their name or take a shot",
+		"color": "#000",
+		"background": "#f39c12",
 		"count": 1
 	},
 	{
-		"text": "Kiss a person with an R in their name or take a shot",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Kiss a person with an I in their name or take a shot",
+		"color": "#000",
+		"background": "#16a085",
 		"count": 1
 	},
 	{
-		"text": "Kiss a person with a V in their name or take a shot",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Keep your hand on the inner thigh of the player on your left til your next turn",
+		"color": "#000",
+		"background": "#f39c12",
+		"count": 2
+	},
+	{
+		"text": "$player: Keep your hand on the inner thigh of the player on your right til your next turn",
+		"color": "#fff",
+		"background": "#c0392b",
+		"count": 2
+	},
+	{
+		"text": "$player: Who in this room would you like to see naked? Answer and take 2 sips",
+		"color": "#fff",
+		"background": "#8e44ad",
 		"count": 1
 	},
 	{
-		"text": "Keep your hand on the inner thigh of the player on your left til your next turn",
-		"color": "#",
-		"background": "#",
+		"text": "$player: When and where did you last have sex?",
+		"color": "#0652DD",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "Keep your hand on the inner thigh of the player on your right til your next turn",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Fake an orgasm or take a shot",
+		"color": "#fff",
+		"background": "#0652DD",
 		"count": 1
 	},
 	{
-		"text": "Who in this room would you like to see naked? Answer and take 2 sips",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Give a hickey to another player",
+		"color": "#6F1E51",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "When and where did you last have sex?",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Find something sweet to put on your lips, The person in front of you has to lick it off",
+		"color": "#fff",
+		"background": "#6F1E51",
 		"count": 1
 	},
 	{
-		"text": "Fake an orgasm or take a shot",
-		"color": "#",
-		"background": "#",
-		"count": 1
-	},
-	{
-		"text": "Give a hickey to another player",
-		"color": "#",
-		"background": "#",
-		"count": 1
-	},
-	{
-		"text": "Find something sweet to put on your lips, The person in front of you has to lick it off",
-		"color": "#",
-		"background": "#",
-		"count": 1
-	},
-	{
-		"text": "Slap someone's ass",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Slap someone's ass",
+		"color": "#EA2027",
+		"background": "#000",
 		"count": 3
 	},
 	{
-		"text": "Lick the sixpack of the player on your right",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Lick the sixpack of the player on your right",
+		"color": "#000",
+		"background": "#EA2027",
 		"count": 1
 	},
 	{
-		"text": "Lick the sixpack of the player on your left",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Lick the sixpack of the player on your left",
+		"color": "#009432",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "Give all women a kiss on the cheek",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Give all women a kiss on the cheek",
+		"color": "#fff",
+		"background": "#009432",
 		"count": 1
 	},
 	{
-		"text": "Kiss the hand of all your co-players",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Kiss the hand of all your co-players",
+		"color": "#12CBC4",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "Name your two favorite places to be touched",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Name your two favorite places to be touched",
+		"color": "#000",
+		"background": "#12CBC4",
 		"count": 3
 	},
 	{
-		"text": "Give a lapdance or take a shot",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Give a lapdance or take a shot",
+		"color": "#D980FA",
+		"background": "#000",
 		"count": 1
 	},
 	{
 		"text": "If you like oral drink 3 times",
-		"color": "#",
-		"background": "#",
+		"color": "#000",
+		"background": "#D980FA",
 		"count": 1
 	},
 	{
 		"text": "If you like anal drink 3 times",
-		"color": "#",
-		"background": "#",
+		"color": "#eb2f06",
+		"background": "#222",
 		"count": 1
 	},
 	{
 		"text": "Who do you think has the smallest & biggest dick?",
-		"color": "#",
-		"background": "#",
+		"color": "#3c6382",
+		"background": "#222",
 		"count": 1
 	},
 	{
-		"text": "Choose two players who will be drinking partners",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Choose two players who will be drinking partners",
+		"color": "#4a69bd",
+		"background": "#222",
 		"count": 1
 	},
 	{
-		"text": "What is your cupsize? If you are a male ask a female player",
-		"color": "#",
-		"background": "#",
+		"text": "$player: What is your cupsize? If you are a male ask a female player",
+		"color": "#000",
+		"background": "#eb2f06",
 		"count": 1
 	},
 	{
-		"text": "Who was your best sexual partner? answer and take 2 sips",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Who was your best sexual partner? answer and take 2 sips",
+		"color": "#fff",
+		"background": "#3c6382",
 		"count": 1
 	},
 	{
-		"text": "Who was your best kiss? answer and take 2 sips",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Who was your best kiss? answer and take 2 sips",
+		"color": "#fff",
+		"background": "#4a69bd",
 		"count": 1
 	},
 	{
 		"text": "Missionairy or cowgirl?",
-		"color": "#",
-		"background": "#",
+		"color": "#000",
+		"background": "#a50e11",
 		"count": 1
 	},
 	{
-		"text": "Give the most attractice player a kiss",
-		"color": "#",
+		"text": "$player: Give the most attractice player a kiss",
+		"color": "#3c40c6",
 		"background": "#",
 		"count": 1
 	},
 	{
 		"text": "What is the longest time you have gone without sex? The person with the shortest time drinks 5 times",
 		"color": "#",
-		"background": "#",
+		"background": "#3c40c6",
 		"count": 1
 	},
 	{
-		"text": "Name something sexual that you haven't done, anyone who has done that drinks 5 times",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Name something sexual that you haven't done, anyone who has done that drinks 5 times",
+		"color": "#05c46b",
+		"background": "#1e272e",
 		"count": 1
 	},
 	{
-		"text": "Choose 2 players who have to transfer something with their mouths",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Choose 2 players who have to transfer something with their mouths",
+		"color": "#05c46b",
+		"background": "#000",
 		"count": 1
 	},
 	{
 		"text": "If you have ever had sex in the shower drink 3 times",
-		"color": "#",
-		"background": "#",
+		"color": "#ffd32a",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "If you could travel back in time, who would you have kissed or not?",
-		"color": "#",
-		"background": "#",
+		"text": "$player: If you could travel back in time, who would you have kissed or not?",
+		"color": "#000",
+		"background": "#ffd32a",
 		"count": 1
 	},
 	{
 		"text": "If you have ever had a pregnancy scare give away 3 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#f53b57",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "Give out 3 sips to the person you want to kiss most right now",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Give 3 sips to the person you want to kiss most right now",
+		"color": "#000",
+		"background": "#f53b57",
 		"count": 1
 	},
 	{
 		"text": "If you have ever kissed in exchange for something, drink 5 times",
-		"color": "#",
-		"background": "#",
+		"color": "#0fbcf9",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "Rate your bed partners from best to worst or take a shot",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Rate your bed partners from best to worst or take a shot",
+		"color": "#222",
+		"background": "#0fbcf9",
 		"count": 1
 	},
 	{
-		"text": "Call your crush or take a shot",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Call your crush or take a shot",
+		"color": "#40407a",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "Text your ex that you miss them or take a shot",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Text your ex that you miss them or take a shot",
+		"color": "#fff",
+		"background": "#40407a",
 		"count": 1
 	},
 	{
 		"text": "Fuck your phone! the first one to look at their phone must down their drink",
-		"color": "#",
-		"background": "#",
+		"color": "#706fd3",
+		"background": "#222",
 		"count": 1
 	},
 	{
 		"text": "Everyone take one sip for each orgasm you've had this week including the ones all on your own",
-		"color": "#",
-		"background": "#",
+		"color": "#000",
+		"background": "#706fd3",
 		"count": 1
 	},
 	{
-		"text": "Show a sexy picture of yourself to 2 players of the opposite sex",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Show a sexy picture of yourself to 2 players of the opposite sex",
+		"color": "#34ace0",
+		"background": "#222",
 		"count": 1
 	},
 	{
-		"text": "Show all your tattoos and drink a sip for each one",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Show all your tattoos and drink a sip for each one",
+		"color": "#000",
+		"background": "#34ace0",
 		"count": 1
 	},
 	{
 		"text": "Take a group selfie",
-		"color": "#",
-		"background": "#",
+		"color": "#33d9b2",
+		"background": "#222",
 		"count": 1
 	},
 	{
-		"text": "Have a staring contest, the looser must drink 5 sips",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Have a staring contest, the looser must drink 5 sips",
+		"color": "#000",
+		"background": "#33d9b2",
 		"count": 1
 	},
 	{
-		"text": "Tell us your best pick-up line",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Tell us your best pick-up line",
+		"color": "#ff793f",
+		"background": "#000",
 		"count": 1
 	},
 	{
 		"text": "Vote on the person with the nicest smell, that person must drink 5 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#022",
+		"background": "#ff793f",
 		"count": 1
 	},
 	{
 		"text": "Everyone that has skinny dipped has to give out 3 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#ff5252",
+		"background": "#202",
 		"count": 1
 	},
 	{
-		"text": "Everyone that has skinny dipped has to give out 3 sips",
-		"color": "#",
-		"background": "#",
+		"text": "Everyone that has skinny dipped has to drink 3 times",
+		"color": "#000",
+		"background": "#ff5252",
 		"count": 1
 	},
 	{
 		"text": "If you have ever kissed someone that is 10 years older than you take a shot",
-		"color": "#",
-		"background": "#",
+		"color": "#eb2f06",
+		"background": "#222",
 		"count": 1
 	},
 	{
 		"text": "The players that have had sex with each other take 5 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#000",
+		"background": "#eb2f06",
 		"count": 1
 	},
 	{
 		"text": "If you have ever fantasized about another player, take 5 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#1e3799",
+		"background": "#000",
 		"count": 2
 	},
 	{
 		"text": "If you have ever taken an std test, take 5 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#fff",
+		"background": "#1e3799",
 		"count": 1
 	},
 	{
-		"text": "Unbutton your shirt and take a sip per button",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Unbutton your shirt and take a sip per button",
+		"color": "#60a3bc",
+		"background": "#000",
 		"count": 1
 	},
 	{
 		"text": "The first player to grap an ice cube can give out 10 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#222",
+		"background": "#60a3bc",
 		"count": 1
 	},
 	{
 		"text": "If you have ever had sex in a car take 5 sips",
-		"color": "#",
-		"background": "#",
+		"color": "#341f97",
+		"background": "#000",
 		"count": 1
 	},
 	{
-		"text": "# Minutes in heaven with the most attractive player",
-		"color": "#",
-		"background": "#",
+		"text": "$player: 3 Minutes in heaven with the most attractive player",
+		"color": "#222f3e",
+		"background": "#ff9f43",
 		"count": 1
 	},
 	{
-		"text": "Drink you bodycount",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Drink you bodycount",
+		"color": "#f368e0",
+		"background": "#222",
 		"count": 2
 	},
 	{
-		"text": "Choose someone to give you a shot from the bottle",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Choose someone to give you a shot from the bottle",
+		"color": "#000",
+		"background": "#f368e0",
 		"count": 1
 	},
 	{
-		"text": "If you're a guy choose a girl to motorboat and if you're a girl choose a guy to do it",
-		"color": "#",
-		"background": "#",
+		"text": "$player: If you're a guy choose a girl to motorboat and if you're a girl choose a guy to do it",
+		"color": "#c0392b",
+		"background": "#222",
 		"count": 1
 	},
 	{
-		"text": "Give someone a shot mouth to mouth",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Give someone a shot mouth to mouth",
+		"color": "#000",
+		"background": "#c0392b",
 		"count": 2
 	},
 	{
-		"text": "Give away 15 sips",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Give away 15 sips",
+		"color": "#8e44ad",
+		"background": "#222",
 		"count": 1
 	},
 	{
-		"text": "Come up with a dare for the person on your right",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Come up with a dare for the person on your right",
+		"color": "#fff",
+		"background": "#8e44ad",
 		"count": 2
 	},
 	{
-		"text": "Come up with a dare for the person on your left",
-		"color": "#",
-		"background": "#",
+		"text": "$player: Come up with a dare for the person on your left",
+		"color": "#9b59b6",
+		"background": "#222",
 		"count": 2
 	},
 	{
 		"text": "Everyone that drinks beer has to finish their drink",
-		"color": "#",
-		"background": "#",
+		"color": "#fff",
+		"background": "#9b59b6",
 		"count": 1
 	}
 ]

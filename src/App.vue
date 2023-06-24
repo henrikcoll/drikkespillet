@@ -7,10 +7,16 @@ let playerInput = ref('');
 let state = ref('players');
 let players = ref([]);
 let cards = ref([])
+let turn = ref(0);
 
 const card = ref(null);
 
 function nextCard() {
+  turn.value++;
+  if (turn.value >= players.value.length) {
+    turn.value = 0;
+  }
+
   if (cards.value.length > 0) {
     card.value = cards.value.shift();
     document.body.style.backgroundColor = card.value.background;
@@ -43,7 +49,8 @@ function addPlayer() {
 
 <template>
   <div class="game" :style="{ 'background-color': card.background }" @click="nextCard" v-if="state === 'game'">
-    <h1 :style="{ 'color': card.color }">{{ card.text }}</h1>
+    {{ turn }}
+    <h1 :style="{ 'color': card.color }">{{ card.text.replace('$player', players[turn]) }}</h1>
   </div>
   <div class="player" v-if="state === 'players'">
     <div class="player-form">
@@ -74,6 +81,10 @@ function addPlayer() {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
+}
+
+.player-form {
+  max-width: 20rem;
 }
 
 
