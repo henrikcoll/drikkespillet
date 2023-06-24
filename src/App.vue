@@ -49,7 +49,6 @@ function addPlayer() {
 
 <template>
   <div class="game" :style="{ 'background-color': card.background }" @click="nextCard" v-if="state === 'game'">
-    {{ turn }}
     <h1 :style="{ 'color': card.color }">{{ card.text.replace('$player', players[turn]) }}</h1>
   </div>
   <div class="player" v-if="state === 'players'">
