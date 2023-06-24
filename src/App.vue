@@ -2,17 +2,37 @@
 import { ref } from 'vue';
 import { loadCards } from './cards'
 
-const cards = loadCards();
-const card = ref(null);
+let cards = []
+
+const card = ref({ 
+  text: 'Tap to start',
+  color: '#fff',
+  background: '#000'
+});
 
 console.log(cards)
 
 function nextCard() {
-  card.value = cards.shift();
+  if (cards.length > 0) {
+    card.value = cards.shift();
+  } else {
+    startGame()
+  }
 }
 
-nextCard()
+function startGame() {
+  cards = [
+    ...loadCards(),
+    { 
+      text: 'The End. Tap to play again',
+      color: '#fff',
+      background: '#000'
+    }
+  ];
 
+
+  nextCard()
+}
 
 </script>
 

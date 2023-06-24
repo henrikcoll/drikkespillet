@@ -1,13 +1,9 @@
 import rawCards from './cards.json'
 
-console.log('rawCards', rawCards)
-
-
 export function loadCards() {
 	const cards = []
 
 	for (let card of rawCards) {
-		console.log('typeof card.count', typeof card.count)
 		if (typeof card.count == 'number') {
 			for (let i = 0; i < card.count; i++) {
 				cards.push({
