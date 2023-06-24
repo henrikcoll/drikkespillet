@@ -7,7 +7,15 @@ import vitePluginFaviconsInject from 'vite-plugin-favicons-inject';
 export default defineConfig({
   plugins: [
     vue(),
-    VitePWA(),
+    VitePWA({
+      registerType: 'autoUpdate',
+      manifest: {
+        name: 'Drikkespillet',
+        short_name: 'Drikkespillet',
+        description: 'Et drikkespill',
+        theme_color: '#000',
+      }
+    }),
     vitePluginFaviconsInject('./src/assets/logo.png')
   ],
 })
