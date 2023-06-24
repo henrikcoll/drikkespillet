@@ -14,6 +14,7 @@ export default defineConfig({
         short_name: 'Drikkespillet',
         description: 'Et drikkespill',
         theme_color: '#000',
+        orientation: 'landscape'
       }
     }),
     vitePluginFaviconsInject('./src/assets/logo.png')

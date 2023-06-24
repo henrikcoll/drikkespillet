@@ -47,7 +47,7 @@ function addPlayer() {
   </div>
   <div class="player" v-if="state === 'players'">
     <div class="player-form">
-      <input type="text" v-model="playerInput">
+      <input type="text" v-model="playerInput" @keydown.enter="addPlayer">
       <button @click="addPlayer">Add</button>
       <h2>Players:</h2>
       <span>{{ players.join(', ') }}</span>
