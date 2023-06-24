@@ -1,48 +1,46 @@
-<template>
-	<div id="app">
-		<router-view />
-	</div>
-</template>
+<script setup>
+import { ref } from 'vue';
+import { loadCards } from './cards'
 
-<script>
-export default {
-	mounted() {
-		document.body.classList.add("bg-gray");
-	},
-};
+const cards = loadCards();
+const card = ref(null);
+
+console.log(cards)
+
+function nextCard() {
+  card.value = cards.shift();
+}
+
+nextCard()
+
+
 </script>
 
-<style>
-:root {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+<template>
+  <div class="game" :style="{'background-color': card.background}" @click="nextCard">
+    <h1  :style="{'color': card.color}">{{ card.text }}</h1>
+  </div>
+</template>
+
+<style scoped>
+
+.game {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.bg-gray {
-	color: #ecf0f1;
-	background-color: #2c3e50;
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
 }
 
-.bg-orange {
-	color: #ecf0f1;
-	background-color: #e67e22;
-}
-
-.bg-green {
-	color: #ecf0f1;
-	background-color: #27ae60;
-}
-
-body {
-	padding: 0;
-	margin: 0;
-}
-
-#app {
-	height: 100vh;
-	width: 100vw;
-	padding: 0;
-	margin: 0;
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 </style>
