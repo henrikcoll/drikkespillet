@@ -25,5 +25,7 @@ export function loadCards() {
 		[cards[i], cards[j]] = [cards[j], cards[i]];
 	}
 
+	console.log(cards.length)
+
 	return cards
 }
