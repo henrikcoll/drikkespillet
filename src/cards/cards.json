@@ -12,7 +12,7 @@
 		"count": 1
 	},
 	{
-		"text": "The girl with the biggest booty gives out 5 sips",
+		"text": "The person with the biggest booty gives out 5 sips",
 		"color": "#F00",
 		"background": "#000",
 		"count": 1
@@ -24,7 +24,7 @@
 		"count": 1
 	},
 	{
-		"text": "The boy with the best sixpack gives out 5 sips",
+		"text": "The person with the best sixpack gives out 5 sips",
 		"color": "#F00",
 		"background": "#000",
 		"count": 1
@@ -54,7 +54,7 @@
 		"count": 1
 	},
 	{
-		"text": "All taken drink",
+		"text": "All in a realtionship drink",
 		"color": "#000",
 		"background": "#ab0afc",
 		"count": 1
@@ -66,7 +66,7 @@
 		"count": 1
 	},
 	{
-		"text": "$player: Let the person on your right scroll through your social media for 1 minute",
+		"text": "$player: Let the person on your left scroll through your social media for 1 minute",
 		"color": "#000",
 		"background": "#333",
 		"count": 1
@@ -126,19 +126,19 @@
 		"count": 1
 	},
 	{
-		"text": "Vote on the biggest player, he has to take 3 sips",
+		"text": "Vote on the biggest player, they have to take 3 sips",
 		"color": "#FFF",
 		"background": "#0a1670",
 		"count": 1
 	},
 	{
-		"text": "Vote on the biggest hoe, she has to take 3 sips",
+		"text": "Vote on the biggest hoe, they have to take 3 sips",
 		"color": "#FFF",
 		"background": "#0a1670",
 		"count": 1
 	},
 	{
-		"text": "Vote on the most innocent, she has to take 5 sips",
+		"text": "Vote on the most innocent, they have to take 5 sips",
 		"color": "#FFF",
 		"background": "#0a1670",
 		"count": 1
@@ -198,13 +198,13 @@
 		"count": 2
 	},
 	{
-		"text": "$player: If you're a girl lick your fingers in an erotic way, if you're a boy down your drink",
+		"text": "$player: Lick your fingers in an erotic way",
 		"color": "#000",
 		"background": "#fd79a8",
 		"count": 1
 	},
 	{
-		"text": "$player: If you've ever been caught with a boner drink 5 times, if you're a girl down your drink",
+		"text": "$player: If you've ever been caught with a boner drink 5 times, if you don't have a dick, down your drink",
 		"color": "#000",
 		"background": "#27ae60",
 		"count": 1
@@ -288,19 +288,31 @@
 		"count": 3
 	},
 	{
-		"text": "$player: Lick the sixpack of the player on your right",
+		"text": "$player: Lick the sixpack/stomach of the player on your right",
 		"color": "#000",
 		"background": "#EA2027",
 		"count": 1
 	},
 	{
-		"text": "$player: Lick the sixpack of the player on your left",
+		"text": "$player: Lick the sixpack/stomach of the player on your left",
 		"color": "#009432",
 		"background": "#000",
 		"count": 1
 	},
 	{
 		"text": "$player: Give all women a kiss on the cheek",
+		"color": "#fff",
+		"background": "#009432",
+		"count": 1
+	},
+	{
+		"text": "$player: Give all men a kiss on the cheek",
+		"color": "#fff",
+		"background": "#009432",
+		"count": 1
+	},
+	{
+		"text": "$player: Give all non-binary a kiss on the cheek",
 		"color": "#fff",
 		"background": "#009432",
 		"count": 1
@@ -348,7 +360,7 @@
 		"count": 1
 	},
 	{
-		"text": "$player: What is your cupsize? If you are a male ask a female player",
+		"text": "$player: What is your cupsize? If you don't use a bra, ask someone who does",
 		"color": "#000",
 		"background": "#eb2f06",
 		"count": 1
@@ -366,7 +378,7 @@
 		"count": 1
 	},
 	{
-		"text": "Missionairy or cowgirl?",
+		"text": "Missionairy or cowgirl/cowboy/cowperson?",
 		"color": "#000",
 		"background": "#a50e11",
 		"count": 1
@@ -564,7 +576,7 @@
 		"count": 1
 	},
 	{
-		"text": "$player: If you're a guy choose a girl to motorboat and if you're a girl choose a guy to do it",
+		"text": "$player: Choose someone to motorboat",
 		"color": "#c0392b",
 		"background": "#222",
 		"count": 1
