@@ -610,5 +610,11 @@
 		"color": "#fff",
 		"background": "#9b59b6",
 		"count": 1
+	},
+	{
+		"text": "Everyone take a shot! $player chooses what.",
+		"color": "#fff",
+		"background": "#9b59b6",
+		"count": 1
 	}
 ]
