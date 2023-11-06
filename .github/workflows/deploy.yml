@@ -47,6 +47,7 @@ jobs:
             })
     
       - name: Checkout Code
+        if: steps.semver.outputs.next
         uses: actions/checkout@v4
         with:
           fetch-tags: true
@@ -84,7 +85,7 @@ jobs:
         if: steps.semver.outputs.next
         with:
           branch: main
-          commit_message: 'chore: update for ${{ steps.semver.outputs.next }} [skip ci]'
+          commit_message: 'update ${{ steps.semver.outputs.next }} [skip ci]'
           file_pattern: helm/ package.json CHANGELOG.md
     
       - name: Create Release
