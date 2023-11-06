@@ -1,0 +1,9 @@
+namespace: drikkespillet
+
+helm:
+  releaseName: drikkespillet
+  chart: "helm"
+  repo: ""
+  version: ""
+  force: false
+  timeoutSeconds: 0
