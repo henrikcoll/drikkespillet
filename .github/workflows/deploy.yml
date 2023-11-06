@@ -48,6 +48,8 @@ jobs:
     
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-tags: true
 
       - name: Update CHANGELOG
         if: steps.semver.outputs.next
