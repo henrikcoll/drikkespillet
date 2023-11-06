@@ -594,6 +594,12 @@
 		"count": 1
 	},
 	{
+		"text": "$player: Give away 1 shot",
+		"color": "#8e44ad",
+		"background": "#222",
+		"count": 1
+	},
+	{
 		"text": "$player: Come up with a dare for the person on your right",
 		"color": "#fff",
 		"background": "#8e44ad",
