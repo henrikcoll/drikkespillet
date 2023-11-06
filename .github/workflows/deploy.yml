@@ -45,6 +45,9 @@ jobs:
               ref: "refs/tags/${{ steps.semver.outputs.next }}",
               sha: context.sha
             })
+    
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
       - name: Update CHANGELOG
         if: steps.semver.outputs.next
