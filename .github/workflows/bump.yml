@@ -20,9 +20,13 @@ jobs:
           branch: main
           noVersionBumpBehavior: silent
 
-      - name: Bump version and push tag
-        uses: mathieudutour/github-tag-action@v6.1
+      - name: Create tag for version
+        uses: actions/github-script@v4
         with:
-          github_token: ${{ github.token }}
-          custom_tag: ${{ steps.semver.outputs.next }}
-          tag_prefix: ""
+          script: |
+            github.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: "refs/tags/${{ steps.semver.outputs.next }}",
+              sha: context.sha
+            })
