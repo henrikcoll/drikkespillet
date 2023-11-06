@@ -24,7 +24,7 @@ jobs:
         uses: actions/github-script@v6.4.1
         with:
           script: |
-            github.git.createRef({
+            github.rest.git.createRef({
               owner: context.repo.owner,
               repo: context.repo.repo,
               ref: "refs/tags/${{ steps.semver.outputs.next }}",
