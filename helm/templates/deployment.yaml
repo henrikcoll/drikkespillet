@@ -22,7 +22,7 @@ spec:
         app: drikkespillet
     spec:
       containers:
-        - image: traefik/drikkespillet
+        - image: {{ .Values.image }}
           name: drikkespillet
           ports:
             - containerPort: 8080

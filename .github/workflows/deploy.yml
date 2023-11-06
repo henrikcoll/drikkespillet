@@ -72,7 +72,7 @@ jobs:
                 "appVersion": "${{ steps.semver.outputs.nextStrict }}"
               },
               "helm/values.yaml": {
-                "version": "ghcr.io/henrikcoll/drikkespillet:${{ steps.semver.outputs.next }}"
+                "image": "ghcr.io/henrikcoll/drikkespillet:${{ steps.semver.outputs.next }}"
               },
               "package.json": {
                 "version": "${{ steps.semver.outputs.nextStrict }}"

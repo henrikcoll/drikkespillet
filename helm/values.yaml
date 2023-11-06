@@ -3,4 +3,3 @@ host: drikkespillet.heka.no
 replicas: 1
 maxSurge: 1
 maxUnavailable: 0
-version: ghcr.io/henrikcoll/drikkespillet:v1.2.0
