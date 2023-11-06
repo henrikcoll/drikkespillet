@@ -18,4 +18,6 @@ COPY . .
 # build app for production with minification
 RUN npm run build
 
+RUN echo "OK" > dist/health
+
 CMD [ "http-server", "dist" ]

@@ -1,0 +1,94 @@
+name: Build docker image
+
+on:
+  push:
+    tags:
+      - v[0-9]+.[0-9]+.[0-9]+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+        
+      - uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: ghcr.io/henrikcoll/drikkespillet:${{ github.ref_name }}
+
+      - name: Set Versions
+        uses: actions/github-script@v4
+        id: set_version
+        with:
+          script: |
+            const tag = context.ref.substring(10)
+            const no_v = tag.replace('v', '')
+            const dash_index = no_v.lastIndexOf('-')
+            const no_dash = (dash_index > -1) ?  no_v.substring(0, dash_index) : no_v
+            core.setOutput('tag', tag)
+            core.setOutput('no-v', no_v)
+            core.setOutput('no-dash', no_dash)
+
+      - name: Update image version in the helm chart
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          value: ghcr.io/henrikcoll/drikkespillet:${{ github.ref_name }}
+          commitChange: false
+          changes: |
+            {
+              "helm/Chart.yaml": {
+                "version": "${{steps.set_version.outputs.no-dash}}",
+                "appVersion": "${{steps.set_version.outputs.no-dash}}"
+              },
+              "helm/values.yaml": {
+                "version": "ghcr.io/henrikcoll/drikkespillet:${{ github.ref_name }}"
+              },
+              "package.json": {
+                "version": "${{steps.set_version.outputs.no-dash}}"
+              }
+            }
+  
+      - name: Commit CHANGELOG.md
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit_message: 'chore: update version [skip ci]'
+          file_pattern: helm/ package.json
+
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Update CHANGELOG
+        id: changelog
+        uses: requarks/changelog-action@v1
+        with:
+          token: ${{ github.token }}
+          tag: ${{ github.ref_name }}
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1.12.0
+        with:
+          allowUpdates: true
+          draft: false
+          makeLatest: true
+          name: ${{ github.ref_name }}
+          body: ${{ steps.changelog.outputs.changes }}
+          token: ${{ github.token }}
+
+      - name: Commit CHANGELOG.md
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit_message: 'docs: update CHANGELOG.md for ${{ github.ref_name }} [skip ci]'
+          file_pattern: CHANGELOG.md
