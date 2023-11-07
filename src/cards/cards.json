@@ -18,7 +18,7 @@
 		"count": 1
 	},
 	{
-		"text": "The boy with the best boxershort gives out 5 sips",
+		"text": "The person with the best boxershort gives out 5 sips",
 		"color": "#F00",
 		"background": "#000",
 		"count": 1
@@ -192,7 +192,7 @@
 		"count": 2
 	},
 	{
-		"text": "$player: Blindfold yourself and let two players kiss you, Give away a shot if you gess correctly",
+		"text": "$player: Blindfold yourself and let two players kiss you, Give away a shot if you guess correctly",
 		"color": "#000",
 		"background": "#fc32a8",
 		"count": 2
@@ -360,9 +360,21 @@
 		"count": 1
 	},
 	{
+		"text": "$player: Who, here, do you want to be intimate with the most? They are now your drinking partner.",
+		"color": "#222",
+		"background": "#4a69bd",
+		"count": 1
+	},
+	{
 		"text": "$player: What is your cupsize? If you don't use a bra, ask someone who does",
 		"color": "#000",
 		"background": "#eb2f06",
+		"count": 1
+	},
+	{
+		"text": "$player: What is your boxer size? If you don't use a boxer, ask someone who does",
+		"color": "#eb2f06",
+		"background": "#000",
 		"count": 1
 	},
 	{
@@ -372,13 +384,25 @@
 		"count": 1
 	},
 	{
+		"text": "$player: Who was your worst sexual partner? answer and take 2 sips",
+		"color": "#3c6382 ",
+		"background": "#fff",
+		"count": 1
+	},
+	{
 		"text": "$player: Who was your best kiss? answer and take 2 sips",
 		"color": "#fff",
 		"background": "#4a69bd",
 		"count": 1
 	},
 	{
-		"text": "Missionairy or cowgirl/cowboy/cowperson?",
+		"text": "$player: Who was your worst kiss? answer and take 2 sips",
+		"color": "#4a69bd",
+		"background": "#fff",
+		"count": 1
+	},
+	{
+		"text": "Missionairy, doggy or cowgirl/cowboy/cowperson?",
 		"color": "#000",
 		"background": "#a50e11",
 		"count": 1
@@ -390,7 +414,7 @@
 		"count": 1
 	},
 	{
-		"text": "What is the longest time you have gone without sex? The person with the shortest time drinks 5 times",
+		"text": "What is the longest time you have gone without sex? The person with the shortest record drinks 5 times",
 		"color": "#",
 		"background": "#3c40c6",
 		"count": 1
@@ -426,9 +450,18 @@
 		"count": 1
 	},
 	{
+		"text": "If you have ever received a message that one of your partners tested positive for STD take 3 sips"
+	},
+	{
 		"text": "$player: Give 3 sips to the person you want to kiss most right now",
 		"color": "#000",
 		"background": "#f53b57",
+		"count": 1
+	},
+	{
+		"text": "$player: Transfer a shot to the person you want to kiss most right now, by mouth",
+		"color": "#f53b57",
+		"background": "#000",
 		"count": 1
 	},
 	{
@@ -468,7 +501,7 @@
 		"count": 1
 	},
 	{
-		"text": "$player: Show a sexy picture of yourself to 2 players of the opposite sex",
+		"text": "$player: Show a sexy picture of yourself to 2 players",
 		"color": "#34ace0",
 		"background": "#222",
 		"count": 1
@@ -612,7 +645,7 @@
 		"count": 2
 	},
 	{
-		"text": "Everyone that drinks beer has to finish their drink",
+		"text": "Everyone that drinks beer or cider has to finish their drink",
 		"color": "#fff",
 		"background": "#9b59b6",
 		"count": 1
@@ -628,5 +661,19 @@
 		"color": "#fff",
 		"background": "#9b59b6",
 		"count": 1
-	}
+	},
+	{
+		"text": "The person who last had an erection/arousal takes 3 sips.",
+		"color": "#696969",
+		"background": "#e291f2",
+		"count": 1
+	},
+	{
+		"text": "The person who last had an erection/arousal gives out 5 sips.",
+		"color": "#696969",
+		"background": "#e291f2",
+		"count": 1
+	},
+	{
+		
 ]
