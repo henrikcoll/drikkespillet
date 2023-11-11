@@ -2,6 +2,9 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
+  annotations:
+    traefik.ingress.kubernetes.io/redirect-entry-point: websecure
+    cert-manager.io/cluster-issuer: letsencrypt-prod
   name: drikkespillet
 spec:
   rules:
@@ -15,3 +18,7 @@ spec:
                 name: drikkespillet
                 port:
                   number: 8080
+  tls:
+  - hosts:
+    - {{ .Values.host }}
+    secretName: whoami-cert
