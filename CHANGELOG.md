@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.5.0] - 2023-12-02
+### :sparkles: New Features
+- [`4ac1664`](https://github.com/henrikcoll/drikkespillet/commit/4ac166474d683d810e855b808fb3bd8baf3c6ffa) - la inn nye kort *(PR [#3](https://github.com/henrikcoll/drikkespillet/pull/3) by [@Erwan228](https://github.com/Erwan228))*
+
+
 ## [v1.4.0] - 2023-11-07
 ### :sparkles: New Features
 - [`89b98ff`](https://github.com/henrikcoll/drikkespillet/commit/89b98ffc1cb26a5b2b9a517f95bfdfbc4c79021a) - Merge pull request [#2](https://github.com/henrikcoll/drikkespillet/pull/2) from Erwan228/patch-2 *(commit by [@henrikcoll](https://github.com/henrikcoll))*
@@ -37,3 +42,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.2.1]: https://github.com/henrikcoll/drikkespillet/compare/v1.2.0...v1.2.1
 [v1.3.0]: https://github.com/henrikcoll/drikkespillet/compare/v1.2.1...v1.3.0
 [v1.4.0]: https://github.com/henrikcoll/drikkespillet/compare/v1.3.0...v1.4.0
+[v1.5.0]: https://github.com/henrikcoll/drikkespillet/compare/v1.4.0...v1.5.0
