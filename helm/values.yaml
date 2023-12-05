@@ -1,4 +1,4 @@
-image: ghcr.io/henrikcoll/drikkespillet:v1.5.0
+image: ghcr.io/henrikcoll/drikkespillet:v1.5.1
 host: drikkespillet.heka.no
 replicas: 1
 maxSurge: 1
