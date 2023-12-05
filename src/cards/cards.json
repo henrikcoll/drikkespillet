@@ -410,12 +410,12 @@
 	{
 		"text": "$player: Give the most attractice player a kiss",
 		"color": "#3c40c6",
-		"background": "#",
+		"background": "#ebffec",
 		"count": 1
 	},
 	{
 		"text": "What is the longest time you have gone without sex? The person with the shortest record drinks 5 times",
-		"color": "#",
+		"color": "#ebffec",
 		"background": "#3c40c6",
 		"count": 1
 	},
@@ -450,7 +450,10 @@
 		"count": 1
 	},
 	{
-		"text": "If you have ever received a message that one of your partners tested positive for STD take 3 sips"
+		"text": "If you have ever received a message that one of your partners tested positive for STD take 3 sips",
+		"color": "#000",
+		"background": "#f53b57",
+		"count": 1
 	},
 	{
 		"text": "$player: Give 3 sips to the person you want to kiss most right now",
@@ -462,7 +465,7 @@
 		"text": "$player: Transfer a shot to the person you want to kiss most right now, by mouth",
 		"color": "#f53b57",
 		"background": "#000",
-		"count": 1
+		"count": 2
 	},
 	{
 		"text": "If you have ever kissed in exchange for something, drink 5 times",
@@ -474,13 +477,13 @@
 		"text": "$player: Rate your bed partners from best to worst or take a shot",
 		"color": "#222",
 		"background": "#0fbcf9",
-		"count": 1
+		"count": 2
 	},
 	{
 		"text": "$player: Call your crush or take a shot",
 		"color": "#40407a",
 		"background": "#000",
-		"count": 1
+		"count": 2
 	},
 	{
 		"text": "$player: Text your ex that you miss them or take a shot",
@@ -504,13 +507,13 @@
 		"text": "$player: Show a sexy picture of yourself to 2 players",
 		"color": "#34ace0",
 		"background": "#222",
-		"count": 1
+		"count": 2
 	},
 	{
 		"text": "$player: Show all your tattoos and drink a sip for each one",
 		"color": "#000",
 		"background": "#34ace0",
-		"count": 1
+		"count": 2
 	},
 	{
 		"text": "Take a group selfie",
@@ -522,7 +525,7 @@
 		"text": "$player: Have a staring contest, the looser must drink 5 sips",
 		"color": "#000",
 		"background": "#33d9b2",
-		"count": 1
+		"count": 2
 	},
 	{
 		"text": "$player: Tell us your best pick-up line",
@@ -717,9 +720,63 @@
 		"count": 3
 	},
 	{
-		"text": "Dip your finger in something sweet, smear it on someones lips and lick/kiss it away",
-		"color": "#d018d6",
-		"background": "#4a4032",
+		"text": "$player: Who would be in your dream orgy?",
+		"color": "#f2fa0c",
+		"background": "#414d87",
+		"count": 2
+	},
+	{
+		"text": "$player: What do you remember most about the first time you ever had sex?",
+		"color": "#f2fa0c",
+		"background": "#414d87",
 		"count": 3
+	},
+	{
+		"text": "$player: Who is the weirdest person you’ve had a sex dream about?",
+		"color": "#f2fa0c",
+		"background": "#523c3e",
+		"count": 2
+	},
+	{
+		"text": "$player: What would be your dream role-play scenario?",
+		"color": "#f2fa0c",
+		"background": "#f70723",
+		"count": 2
+	},
+	{
+		"text": "What do the others think $player is best at in bed?",
+		"color": "#0cfa68",
+		"background": "#fa6b0c",
+		"count": 2
+	},
+	{
+		"text": "$player: Have you ever gotten turned on at work (or while WFH)? What did you do about it?",
+		"color": "#0cfa68",
+		"background": "#fa6b0c",
+		"count": 3
+	},
+	{
+		"text": "$player: Have you ever hooked up with a stranger or had a one-night stand?",
+		"color": "#bf00ff",
+		"background": "#212db0",
+		"count": 2
+	},
+	{
+		"text": "$player: What’s #1 on your sexual bucket list right now?",
+		"color": "#bf00ff",
+		"background": "#212db0",
+		"count": 2
+	},
+	{
+		"text": "$player: What's the kinkiest thing you've ever done?",
+		"color": "#212db0",
+		"background": "#bf00ff",
+		"count": 2
+	},
+	{
+		"text": "$player: How do you feel about threesomes? Have you ever had one, and if not, would you ever have one?",
+		"color": "#13870f",
+		"background": "#ff005d",
+		"count": 1
 	}
 ]
